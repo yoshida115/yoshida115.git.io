@@ -65,14 +65,19 @@
 
 
 // 009
-console.log('鈴木' == '鈴木');
-console.log(10 < 30);
-console.log(20 >= 30);
+// console.log('鈴木' == '鈴木');
+// console.log(10 < 30);
+// console.log(20 >= 30);
 
-const array1 = [1, 2, 3];
-const array2 = [1, 2, 3];
-console.log(array1 == array2);
+// const array1 = [1, 2, 3];
+// const array2 = [1, 2, 3];
+// console.log(array1 == array2);
 
-const array3 = [1, 2, 3];
-const array4 = array3;
-console.log(array3 == array4);
+// const array3 = [1, 2, 3];
+// const array4 = array3;
+// console.log(array3 == array4);
+
+console.log(10 == '10');
+console.log(10 === '10');
+console.log(20 != '20');
+console.log(20 !== '20');
