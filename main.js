@@ -45,20 +45,34 @@
 
 
 // 007
-const myName = '鈴木';
-alert(myName);
+// const myName = '鈴木';
+// alert(myName);
 
-const number1 = 10;
-const number2 = 20;
-const sum = number1 + number2;
-console.log(sum);
+// const number1 = 10;
+// const number2 = 20;
+// const sum = number1 + number2;
+// console.log(sum);
 
-const familyName = '鈴木';
-const firstName = '太郎';
-const fullName = familyName + firstName;
-console.log(fullName);
+// const familyName = '鈴木';
+// const firstName = '太郎';
+// const fullName = familyName + firstName;
+// console.log(fullName);
 
-let a = 1,
-  b = 2;
+// let a = 1,
+//   b = 2;
   
-console.log(a + b);
+// console.log(a + b);
+
+
+// 009
+console.log('鈴木' == '鈴木');
+console.log(10 < 30);
+console.log(20 >= 30);
+
+const array1 = [1, 2, 3];
+const array2 = [1, 2, 3];
+console.log(array1 == array2);
+
+const array3 = [1, 2, 3];
+const array4 = array3;
+console.log(array3 == array4);
