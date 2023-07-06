@@ -1,11 +1,13 @@
 // 003
 // alert('こんにちは');
 
+
 // 004
 // const a = 10;
 // const b = 20;
 // const sum = a + b;
 // console.log(sum);
+
 
 // 005
 // console.log(100 + 200);
@@ -14,6 +16,7 @@
 // console.log(400 / 5);
 // console.log(402 % 5);
 // console.log(2 ** 3);
+
 
 // 006
 // let myName = '鈴木';
@@ -33,11 +36,29 @@
 // let value2 = value1;
 // console.log(value2);
 
-let a = 1,
-  b = 2,
-  c;
+// let a = 1,
+//   b = 2,
+//   c;
   
-console.log(a + b);
-console.log(c);
+// console.log(a + b);
+// console.log(c);
+
 
 // 007
+const myName = '鈴木';
+alert(myName);
+
+const number1 = 10;
+const number2 = 20;
+const sum = number1 + number2;
+console.log(sum);
+
+const familyName = '鈴木';
+const firstName = '太郎';
+const fullName = familyName + firstName;
+console.log(fullName);
+
+let a = 1,
+  b = 2;
+  
+console.log(a + b);
